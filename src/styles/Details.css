@@ -1,0 +1,18 @@
+.vid {
+  text-align: center;
+  border-radius: 5px;
+  outline: 2px solid var(--blue);
+  cursor: pointer;
+  padding: 1px;
+  margin-bottom: 0.6em;
+}
+.vid p {
+  font-size: 16px;
+  margin: 0;
+  text-transform: uppercase;
+}
+
+.active {
+  background: var(--blue);
+  color: #fff;
+}
