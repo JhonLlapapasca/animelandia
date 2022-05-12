@@ -1,0 +1,8 @@
+.animeImage {
+  min-width: 20%;
+  width: 250px;
+  height: 100%;
+  background-color: azure;
+}
+@media (max-width: 560px) {
+}
