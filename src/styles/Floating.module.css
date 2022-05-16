@@ -1,0 +1,21 @@
+.floating {
+  position: fixed;
+  width: 55px;
+  height: 55px;
+  line-height: 55px;
+  bottom: 25px;
+  right: 25px;
+  border-radius: 50%;
+  font-size: 30px;
+  outline: 2px solid var(--blue);
+}
+
+
+@media (max-width: 560px) {
+  .floating {
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    font-size: 24px;
+  }
+}
